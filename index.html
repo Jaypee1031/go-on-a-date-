@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Walk Questions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="night-sky">
+        <canvas id="stars"></canvas>
+        <div class="moon"></div>
+        <div class="hearts"></div>
+        <div class="park-path"></div>
+    </div>
+    <main>
+        <div class="question-box">
+            <div id="question" class="cute-font fade-in"></div>
+            <div class="buttons">
+                <button id="yesBtn" class="glow">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+        </div>
+        <div id="finalScreen" class="final-screen" style="display:none;">
+            <div class="yay-text">Yay! Can’t wait 💖</div>
+            <div class="fireworks"></div>
+        </div>
+    </main>
+    <audio id="noSound" src="no-sound.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
